@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  21 FEB 2022 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  21 FEB 2022 20:32
 entering extended mode
 **./FF8_Any_PC_Condensed.tex
 (FF8_Any_PC_Condensed.tex
@@ -1031,12 +1031,12 @@ LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 13.
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 10.0pt on input line 13.
-<Images/zc_win.png, id=18, 663.98062pt x 316.93407pt>
+<Images/zc_win.png, id=22, 663.98062pt x 316.93407pt>
 File: Images/zc_win.png Graphic file (type png)
 <use Images/zc_win.png>
 Package pdftex.def Info: Images/zc_win.png  used on input line 134.
 (pdftex.def)             Requested size: 298.78851pt x 142.619pt.
-<Images/zc_notplayed.png, id=19, 187.45032pt x 246.9225pt>
+<Images/zc_notplayed.png, id=23, 187.45032pt x 246.9225pt>
 File: Images/zc_notplayed.png Graphic file (type png)
 <use Images/zc_notplayed.png>
 Package pdftex.def Info: Images/zc_notplayed.png  used on input line 135.
@@ -1050,7 +1050,7 @@ Overfull \hbox (13.20796pt too wide) in paragraph at lines 134--136
 
 {C:/Users/Olson/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/zc
 _win.png> <./Images/zc_notplayed.png>]
-<Images/train_codes.png, id=30, 140.02313pt x 140.02313pt>
+<Images/train_codes.png, id=34, 140.02313pt x 140.02313pt>
 File: Images/train_codes.png Graphic file (type png)
 <use Images/train_codes.png>
 Package pdftex.def Info: Images/train_codes.png  used on input line 280.
@@ -1069,33 +1069,40 @@ een already used, duplicate ignored
 l.207 \newpage
                [3]) (Discs/disc3.tex
 Chapter 3.
-)
-Overfull \hbox (1.99998pt too wide) in paragraph at lines 1--77
-[]      
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.78 \end{multicols*}
-                      [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+l.114 \newpage
+               [4]) (Discs/disc4.tex
+Chapter 4.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 
+      [5])pdfTeX warning (ext4): destination with the same identifier (name{pag
+e.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.79 \end{multicols*}
+                      [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (FF8_Any_PC_Condensed.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
 Package rerunfilecheck Info: File `FF8_Any_PC_Condensed.out' has not changed.
-(rerunfilecheck)             Checksum: E2EA89688552A3BF05DA250B02340502;123.
+(rerunfilecheck)             Checksum: 8B622C325E91C66ABE079017B9EF60B0;164.
  ) 
 Here is how much of TeX's memory you used:
- 18967 strings out of 481311
- 358580 string characters out of 2916959
- 720330 words of memory out of 3000000
- 34038 multiletter control sequences out of 15000+200000
+ 18981 strings out of 481311
+ 358837 string characters out of 2916959
+ 723330 words of memory out of 3000000
+ 34049 multiletter control sequences out of 15000+200000
  572693 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,5n,75p,846b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,5n,75p,846b,666s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programy/MiKTeX/MiKTeX 2.9/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}{D:
 /Programy/MiKTeX/MiKTeX 2.9/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}<D:/Prog
 ramy/MiKTeX/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><
@@ -1103,9 +1110,9 @@ D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Reg
 ular.pfb><D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy6.pf
 b>
-Output written on FF8_Any_PC_Condensed.pdf (4 pages, 1039435 bytes).
+Output written on FF8_Any_PC_Condensed.pdf (6 pages, 1047515 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 52 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 6 named destinations out of 1000 (max. 500000)
+ 60 words of extra memory for PDF output out of 10000 (max. 10000000)
 
