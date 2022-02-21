@@ -1,0 +1,80 @@
+\documentclass[dvipsnames]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{xstring}
+\usepackage{xifthen}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{setspace}
+\usepackage{amsmath}
+\pagenumbering{gobble}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+\usepackage{titlepic}
+\usepackage[normalem]{ulem}
+\usepackage[document]{ragged2e}
+\usepackage[default]{sourcesanspro}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{5\p@}%
+  {\parindent \z@ \raggedleft \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge \bfseries \textcolor{Magenta}{#1}
+        \par\nobreak
+%        \vskip 10\p@
+        \uwave{\hspace{\columnwidth}}%{.1pt}%
+%        \vskip 10\p@
+    \fi
+    \interlinepenalty\@M
+%    \large \bfseries \MakeUppercase{#1}\par\nobreak
+%    \vskip 5\p@
+  }}
+\makeatother
+
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
+
+\newenvironment{battle}[2][]{\begin{tcolorbox}[title=\begin{center}#2 \ifthenelse{\isempty{#1}}{}{- #1}\end{center},colbacktitle=red!50!white]}{\end{tcolorbox}}
+
+\newenvironment{shop}{\begin{tcolorbox}[title=\begin{center}SHOP\end{center},colbacktitle=blue!50!white]}{\end{tcolorbox}}
+
+\newenvironment{menu}[1][]{\begin{tcolorbox}[title=\begin{center}MENU\ifthenelse{\isempty{#1}}{}{ - #1}\end{center},colbacktitle=black!50!white]}{\end{tcolorbox}}
+
+\setlength{\columnsep}{.5cm}
+
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\usepackage{graphicx}
+
+\usepackage{wrapfig}
+
+\title{FF8 Any\% - PC}
+
+\author{Olson}
+\begin{document}
+\singlespacing
+
+\begin{multicols*}{2}
+\input{Discs/disc1.tex}
+\input{Discs/disc2.tex}
+\input{Discs/disc3.tex}
+
+\end{multicols*}
+
+\end{document}
