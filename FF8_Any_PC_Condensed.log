@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  27 MAR 2022 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.4)  11 JAN 2026 15:46
 entering extended mode
 **./FF8_Any_PC_Condensed.tex
 (FF8_Any_PC_Condensed.tex
@@ -1092,12 +1092,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (FF8_Any_PC_Condensed.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
-Package rerunfilecheck Info: File `FF8_Any_PC_Condensed.out' has not changed.
-(rerunfilecheck)             Checksum: 8B622C325E91C66ABE079017B9EF60B0;164.
+
+
+Package rerunfilecheck Warning: File `FF8_Any_PC_Condensed.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `FF8_Any_PC_Condensed.out':
+(rerunfilecheck)             Before: 2299999AB118EDE23852DD9A77C9183C;168
+(rerunfilecheck)             After:  8B622C325E91C66ABE079017B9EF60B0;164.
  ) 
 Here is how much of TeX's memory you used:
  18981 strings out of 481311
- 358837 string characters out of 2916959
+ 358727 string characters out of 2916959
  723330 words of memory out of 3000000
  34049 multiletter control sequences out of 15000+200000
  572693 words of font info for 37 fonts, out of 3000000 for 9000
@@ -1110,7 +1117,7 @@ D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/adobe/sourcesanspro/SourceSansPro-Reg
 ular.pfb><D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><D:/Programy/MiKTeX/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/lasy6.pf
 b>
-Output written on FF8_Any_PC_Condensed.pdf (6 pages, 1047535 bytes).
+Output written on FF8_Any_PC_Condensed.pdf (6 pages, 1047497 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
